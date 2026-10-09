@@ -1,0 +1,14 @@
+{
+  "name": "from-spec-to-failing-test",
+  "version": "1.0.0",
+  "description": "Live demo: write the acceptance criteria, generate the test, watch it fail for the right reason, let the agent make it pass without touching the test.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "node --test --test-reporter=spec",
+    "reset": "bash scripts/reset-demo.sh"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

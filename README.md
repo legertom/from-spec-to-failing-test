@@ -20,7 +20,7 @@ The example is small on purpose: a function that masks Social Security numbers b
 You only need **Git** and **Node.js 20+**. Paste this whole block into a terminal:
 
 ```bash
-git clone <REPO-URL> from-spec-to-failing-test
+git clone https://github.com/legertom/from-spec-to-failing-test.git
 cd from-spec-to-failing-test
 
 git checkout -f demo-tests   # tests written and committed, no implementation yet
@@ -32,7 +32,7 @@ npm test                     # 3 pass            ← green
 git diff --stat demo-tests demo-done -- tests/   # prints nothing: tests never changed
 ```
 
-Replace `<REPO-URL>` with the link you were given. When you're done, go back to the start with `npm run reset`.
+When you're done, go back to the start with `npm run reset`.
 
 For the real thing, with an agent writing the code while you watch, follow the steps below.
 
@@ -159,10 +159,10 @@ Three version numbers means you're ready. (If you're skipping Claude Code, only 
 
 ## Get the repo
 
-Clone it (replace `<REPO-URL>` with the link you were given):
+Clone it:
 
 ```bash
-git clone <REPO-URL> from-spec-to-failing-test
+git clone https://github.com/legertom/from-spec-to-failing-test.git
 cd from-spec-to-failing-test
 ```
 
